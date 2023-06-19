@@ -1,0 +1,13 @@
+.navbar {
+  border-bottom: solid rgb(205, 205, 205) 0.5px;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-brand {
+  padding-left: 30px;
+}
+.nav-item {
+  padding-right: 30px;
+}
