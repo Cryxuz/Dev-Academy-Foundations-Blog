@@ -1,3 +1,51 @@
+.li-link {
+  padding: 1rem 0;
+}
+
+ol {
+  counter-reset: li;
+  list-style: none;
+  padding: 0;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  margin: 20%;
+}
+
+ol a {
+  position: relative;
+  display: block;
+  padding: 0.4em 0.4em 0.4em 2em;
+  margin: 0.5em 0;
+  background: #d6d4d1;
+  color: #2a2929;
+  text-decoration: none;
+  border-radius: 0.3em;
+  transition: 0.3s ease-out;
+}
+
+ol a:hover {
+  background: #beb4af;
+}
+ol a:hover:before {
+  transform: rotate(360deg);
+}
+ol a:before {
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  left: -1.3em;
+  top: 50%;
+  margin-top: -1.3em;
+  background: #f9dd94;
+  height: 2em;
+  width: 2em;
+  line-height: 2em;
+  border: 0.3em solid #fff;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 2em;
+  transition: all 0.3s ease-out;
+}
+
 .btn {
   margin: 1rem;
 }
@@ -75,7 +123,11 @@ h1 {
   font-style: italic;
 }
 /* BODY */
-
+.link-body {
+  margin: 0 20%;
+  background-color: aliceblue;
+  border-radius: 1rem;
+}
 .learning {
   background-color: #d4eaee;
   text-align: center;
