@@ -343,3 +343,25 @@ ul {
     text-align: center;
   }
 }
+/* Identity-Values STYLES*/
+.identity-values {
+  margin: 3% 20%;
+  padding: 3rem;
+  border: solid rgb(221, 219, 219) 1px;
+}
+.identity-values-h1,
+.identity-values-ul {
+  margin-bottom: 5%;
+}
+@media (max-width: 769px) {
+  .identity-values-h1 {
+    text-align: center;
+  }
+}
+@media (max-width: 425px) {
+  .identity-values {
+    margin: 3% 5%;
+    padding: 3rem;
+    border: solid rgb(221, 219, 219) 1px;
+  }
+}
