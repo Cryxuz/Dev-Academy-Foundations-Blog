@@ -3,7 +3,7 @@
   padding: 1rem 0;
 }
 
-ol {
+.rounded-list {
   counter-reset: li;
   list-style: none;
   padding: 0;
@@ -127,7 +127,7 @@ h6 {
   margin: 2rem 0.75;
   background-color: #d4f1f4;
   border-radius: 0.5rem;
-  width: 95%;
+  width: 75%;
   box-shadow: 5px 5px 5px 0px rgba(56, 55, 55, 0.75);
 }
 .dev-academy:hover {
@@ -322,4 +322,24 @@ ul {
     box-shadow: 10px 10px 5px 0px rgba(56, 55, 55, 0.75);
   }
 }
-/*  */
+/* Learning Plan STYLES */
+.learning-plan {
+  margin: 3% 20%;
+  padding: 3rem;
+  border: solid rgb(221, 219, 219) 1px;
+}
+
+.learning-plan-ul,
+.learning-plan-h1 {
+  margin-bottom: 5%;
+}
+@media (max-width: 425px) {
+  .learning-plan {
+    margin: 3% 5%;
+    padding: 3rem;
+    border: solid rgb(221, 219, 219) 1px;
+  }
+  .learning-plan-h1 {
+    text-align: center;
+  }
+}
