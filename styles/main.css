@@ -1,4 +1,11 @@
 /* MOBILE */
+.copyright {
+  margin-top: 1rem;
+  font-size: 0.75rem;
+}
+.copyright-2 {
+  font-size: 0.75rem;
+}
 .li-link {
   padding: 1rem 0;
 }
@@ -49,6 +56,7 @@ ol a:before {
 
 .btn {
   margin: 1rem;
+  padding: 1rem 3rem;
 }
 .link-button {
   text-align: center;
@@ -102,7 +110,8 @@ ol a:before {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  width: 100%;
+  width: 90%;
+  margin: auto;
   background-color: #ededed;
   border-radius: 2.5rem;
   border: solid 2px gray;
@@ -222,6 +231,7 @@ ul {
     width: 75%;
     box-shadow: 5px 5px 5px 0px rgba(56, 55, 55, 0.75);
   }
+
   .images {
     margin: 1rem auto;
     border-radius: 0.5rem;
@@ -359,44 +369,52 @@ ul {
     box-shadow: 10px 10px 5px 0px rgba(56, 55, 55, 0.75);
   }
 }
+/* Te-Houtaewa */
+.te-houtaewa-div {
+  margin: 7% 15%;
+}
 /* Learning Plan STYLES */
-.learning-plan {
+.blog-section {
   margin: 3% 20%;
   padding: 3rem;
   border: solid rgb(221, 219, 219) 1px;
 }
 
-.learning-plan-ul,
-.learning-plan-h1 {
+.blog-section-ul,
+.blog-section {
   margin-bottom: 5%;
 }
 @media (max-width: 425px) {
-  .learning-plan {
+  .blog-section {
     margin: 3% 5%;
     padding: 3rem;
     border: solid rgb(221, 219, 219) 1px;
   }
-  .learning-plan-h1 {
+  .blog-section-h1 {
     text-align: center;
   }
 }
-/* Identity-Values STYLES*/
-.identity-values {
+/* 
+Identity-Values 
+Learning-Plan
+Emotional-Intelligence
+STYLES*/
+.blog-section {
   margin: 3% 20%;
   padding: 3rem;
   border: solid rgb(221, 219, 219) 1px;
 }
-.identity-values-h1,
-.identity-values-ul {
+.blog-section-h1,
+.blog-section-ul {
   margin-bottom: 5%;
 }
 @media (max-width: 769px) {
-  .identity-values-h1 {
+  .blog-section-h1 {
     text-align: center;
   }
 }
 @media (max-width: 425px) {
-  .identity-values {
+  .blog-section {
     margin: 3% 5%;
     padding: 3rem;
     border: solid rgb(221, 219, 219) 1px;
