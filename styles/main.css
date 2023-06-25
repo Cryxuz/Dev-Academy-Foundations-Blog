@@ -98,6 +98,43 @@ ol a:before {
 }
 
 /* HEADER */
+.head-container-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  width: 100%;
+  background-color: #ededed;
+  border-radius: 2.5rem;
+  border: solid 2px gray;
+  padding-top: 5%;
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/002/370/771/small_2x/abstract-colorful-triangles-with-patterns-and-gradients-on-a-grid-80s-background-free-vector.jpg);
+}
+.h-grid-img1 {
+  grid-area: 1/1/4/4;
+  justify-self: end;
+  border: solid 1px rgb(192, 192, 192);
+}
+.h-grid-img2 {
+  grid-area: 1/5/4/8;
+  border: solid 1px rgb(192, 192, 192);
+}
+.h-grid-img3 {
+  grid-area: 3/3/6/6;
+  justify-self: center;
+  order: 1;
+  object-fit: cover;
+  width: 100%;
+  border: solid 1px rgb(192, 192, 192);
+}
+.h-grid-img4 {
+  grid-area: 5/1/8/4;
+  justify-self: end;
+  border: solid 1px rgb(192, 192, 192);
+}
+.h-grid-img5 {
+  grid-area: 5/5/8/8;
+  border: solid 1px rgb(192, 192, 192);
+}
 header {
   text-align: center;
 }
