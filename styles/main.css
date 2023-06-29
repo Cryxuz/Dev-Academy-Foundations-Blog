@@ -394,6 +394,13 @@ ul {
     text-align: center;
   }
 }
+/* JavaScript-DOM STYLES */
+.js-dom-h4 {
+  margin-bottom: 2rem;
+}
+.js-dom-p {
+  margin-bottom: 1.5rem;
+}
 /* 
 Identity-Values 
 Learning-Plan
