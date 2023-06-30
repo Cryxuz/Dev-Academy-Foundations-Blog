@@ -401,6 +401,30 @@ ul {
 .js-dom-p {
   margin-bottom: 1.5rem;
 }
+.js-dom-img {
+  width: 50%;
+  margin: auto;
+  border: solid rgb(20, 127, 139) 5px;
+  padding: 3%;
+  border-radius: 5rem;
+  background-color: #4a4a4a;
+}
+.js-dom-examples {
+  border-radius: 1rem;
+  border: solid rgb(207, 207, 207) 2px;
+  margin: 3% auto;
+  width: 80%;
+  display: block;
+}
+@media (max-width: 1440px) {
+  .js-dom-examples {
+    border-radius: 1rem;
+    border: solid rgb(207, 207, 207) 2px;
+    margin: 3% auto;
+    width: 100%;
+    display: block;
+  }
+}
 /* 
 Identity-Values 
 Learning-Plan
