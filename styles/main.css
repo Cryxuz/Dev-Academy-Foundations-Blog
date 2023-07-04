@@ -577,3 +577,56 @@ STYLES*/
     border: solid rgb(221, 219, 219) 1px;
   }
 }
+/*  te-whare-tapa-wha STYLES*/
+.te-whare-h2 {
+  margin-bottom: 2rem;
+}
+.te-whare-img {
+  width: 100%;
+  margin: 3% auto 3rem auto;
+  box-shadow: 10px 10px 5px 0px rgba(56, 55, 55, 0.75);
+  border: solid rgb(221, 219, 219) 1px;
+  border-radius: 1rem;
+}
+.te-whare-styles {
+  margin: 10%;
+  padding: 3rem;
+  text-align: center;
+  border: solid rgb(221, 219, 219) 1px;
+}
+.te-whare-p {
+  margin: auto 0;
+  margin-bottom: 2rem;
+}
+.te-whare-img-p {
+  width: 100%;
+  margin: 3% auto 0 auto;
+  box-shadow: 10px 10px 5px 0px rgba(56, 55, 55, 0.75);
+  border: solid rgb(221, 219, 219) 1px;
+  border-radius: 1rem;
+}
+@media (min-width: 1024px) {
+  .te-whare-img {
+    width: 60%;
+    margin: 3% auto 3rem auto;
+    box-shadow: 10px 10px 5px 0px rgba(56, 55, 55, 0.75);
+    border: solid rgb(221, 219, 219) 1px;
+    border-radius: 1rem;
+  }
+  .te-whare-p {
+    margin: auto 20%;
+    font-size: 1.2rem;
+  }
+  .te-whare-img-p {
+    width: 30%;
+    margin: 3% auto 0 auto;
+    box-shadow: 10px 10px 5px 0px rgba(56, 55, 55, 0.75);
+    border: solid rgb(221, 219, 219) 1px;
+    border-radius: 1rem;
+  }
+  .te-whare-intro {
+    margin: auto 20%;
+    font-size: 1.2rem;
+    padding-bottom: 5%;
+  }
+}
