@@ -21,7 +21,7 @@
 ol a {
   position: relative;
   display: block;
-  padding: 0.4em 0.4em 0.4em 2em;
+  padding: 0.4em 0.4em 0.4em 1em;
   margin: 0.5em 0;
   background: #d6d4d1;
   color: #2a2929;
@@ -181,7 +181,7 @@ h6 {
 }
 /* BODY */
 .link-body {
-  margin: 0 20%;
+  margin: 0 5%;
   background-color: aliceblue;
   border-radius: 1rem;
 }
@@ -231,7 +231,11 @@ ul {
     width: 75%;
     box-shadow: 5px 5px 5px 0px rgba(56, 55, 55, 0.75);
   }
-
+  .link-body {
+    margin: 0 20%;
+    background-color: aliceblue;
+    border-radius: 1rem;
+  }
   .images {
     margin: 1rem auto;
     border-radius: 0.5rem;
@@ -303,6 +307,17 @@ ul {
   .about {
     margin: 0 5rem 0 5rem;
   }
+  ol a {
+    position: relative;
+    display: block;
+    padding: 0.4em 0.4em 0.4em 2em;
+    margin: 0.5em 0;
+    background: #d6d4d1;
+    color: #2a2929;
+    text-decoration: none;
+    border-radius: 0.3em;
+    transition: 0.3s ease-out;
+  }
 }
 /* LAPTOP 1440 & ABOVE*/
 @media (min-width: 1440px) {
@@ -369,10 +384,108 @@ ul {
     box-shadow: 10px 10px 5px 0px rgba(56, 55, 55, 0.75);
   }
 }
+@media (max-width: 320px) {
+  #html-css-h1 {
+    font-size: 2rem;
+  }
+}
 /* Te-Houtaewa */
 .te-houtaewa-div {
   margin: 7% 15%;
 }
+
+/* Neuroplasticity & Growth Mindset STYLES */
+
+.neuro-styles {
+  margin: 10%;
+  padding: 3rem;
+  text-align: center;
+  border: solid rgb(221, 219, 219) 1px;
+}
+#neuro-h1 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.neuro-h2 {
+  margin: 2rem 0;
+}
+.neuro-p {
+  margin: auto 20%;
+}
+.neuro-link {
+  margin: 2% auto;
+}
+.neuro-img {
+  width: 60%;
+  margin: 3% auto 3rem auto;
+  box-shadow: 10px 10px 5px 0px rgba(56, 55, 55, 0.75);
+  border: solid rgb(221, 219, 219) 1px;
+  border-radius: 1rem;
+}
+.neuro-img-round {
+  width: 60%;
+  margin: 3% auto 3rem auto;
+  box-shadow: 10px 10px 5px 0px rgba(56, 55, 55, 0.75);
+  border: solid rgb(221, 219, 219) 1px;
+  border-radius: 100%;
+}
+
+@media (max-width: 425px) {
+  .neuro-nav-text {
+    font-size: 0.9;
+  }
+  .neuro-img {
+    width: 100%;
+    margin: 0 auto 5% auto;
+    box-shadow: 10px 10px 5px 0px rgba(56, 55, 55, 0.75);
+    border-radius: 1rem;
+  }
+  .neuro-img-round {
+    width: 100%;
+    margin: 3% auto 3% auto;
+    box-shadow: 10px 10px 5px 0px rgba(56, 55, 55, 0.75);
+    border: solid rgb(221, 219, 219) 1px;
+    border-radius: 100%;
+  }
+  .neuro-h1 {
+    font-size: 2rem;
+  }
+  .neuro-p {
+    margin: auto;
+  }
+  .neuro-link {
+    margin: 10% auto;
+  }
+}
+
+@media (max-width: 320px) {
+  .neuro-nav-text {
+    font-size: 0.9rem;
+  }
+  .neuro-h1 {
+    font-size: 1.5rem;
+  }
+  .neuro-p {
+    margin: 0;
+  }
+  .neuro-img {
+    width: 100%;
+    margin: 0 auto 5% auto;
+    box-shadow: 10px 10px 5px 0px rgba(56, 55, 55, 0.75);
+    border-radius: 1rem;
+  }
+  .neuro-img-round {
+    width: 100%;
+    margin: 3% auto 3% auto;
+    box-shadow: 10px 10px 5px 0px rgba(56, 55, 55, 0.75);
+    border: solid rgb(221, 219, 219) 1px;
+    border-radius: 100%;
+  }
+  .neuro-link {
+    margin: 10% auto;
+  }
+}
+
 /* Learning Plan STYLES */
 .blog-section {
   margin: 3% 20%;
@@ -423,6 +536,19 @@ ul {
     margin: 3% auto;
     width: 100%;
     display: block;
+  }
+}
+@media (max-width: 425px) {
+  .js-dom-img {
+    width: 50%;
+    margin: auto;
+    border: solid rgb(20, 127, 139) 5px;
+    padding: 3%;
+    border-radius: 2rem;
+    background-color: #4a4a4a;
+  }
+  body {
+    text-align: center;
   }
 }
 /* 
