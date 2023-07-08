@@ -110,7 +110,7 @@ ol a:before {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  width: 90%;
+  width: 75%;
   margin: auto;
   background-color: #ededed;
   border-radius: 2.5rem;
@@ -391,7 +391,8 @@ ul {
 }
 /* Te-Houtaewa */
 .te-houtaewa-div {
-  margin: 7% 15%;
+  margin: 7% 20%;
+  text-align: center;
 }
 
 /* Neuroplasticity & Growth Mindset STYLES */
@@ -577,24 +578,34 @@ STYLES*/
     border: solid rgb(221, 219, 219) 1px;
   }
 }
-/*  te-whare-tapa-wha STYLES*/
-.te-whare-h2 {
+/*  te-whare-tapa-wha STYLES
+    problem-solving STYLES*/
+@media (max-width: 320px) {
+  .problem-solving-h1 {
+    font-size: 36px;
+  }
+}
+.te-whare-h2,
+.problem-solving-h2 {
   margin-bottom: 2rem;
 }
-.te-whare-img {
+.te-whare-img,
+.problem-solving-img {
   width: 100%;
   margin: 3% auto 3rem auto;
   box-shadow: 10px 10px 5px 0px rgba(56, 55, 55, 0.75);
   border: solid rgb(221, 219, 219) 1px;
   border-radius: 1rem;
 }
-.te-whare-styles {
+.te-whare-styles,
+.problem-solving-styles {
   margin: 10%;
   padding: 3rem;
   text-align: center;
   border: solid rgb(221, 219, 219) 1px;
 }
-.te-whare-p {
+.te-whare-p,
+.problem-solving-p {
   margin: auto 0;
   margin-bottom: 2rem;
 }
@@ -613,7 +624,8 @@ STYLES*/
     border: solid rgb(221, 219, 219) 1px;
     border-radius: 1rem;
   }
-  .te-whare-p {
+  .te-whare-p,
+  .problem-solving-p {
     margin: auto 20%;
     font-size: 1.2rem;
   }
@@ -624,9 +636,17 @@ STYLES*/
     border: solid rgb(221, 219, 219) 1px;
     border-radius: 1rem;
   }
-  .te-whare-intro {
+  .te-whare-intro,
+  .problem-solving-intro {
     margin: auto 20%;
     font-size: 1.2rem;
     padding-bottom: 5%;
+  }
+  .problem-solving-img {
+    width: 40%;
+    margin: 3% auto 3rem auto;
+    box-shadow: 10px 10px 5px 0px rgba(56, 55, 55, 0.75);
+    border: solid rgb(221, 219, 219) 1px;
+    border-radius: 1rem;
   }
 }
