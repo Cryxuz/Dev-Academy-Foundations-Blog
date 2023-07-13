@@ -353,7 +353,7 @@ ul {
 
 /* HTML-CSS.html STYLES */
 .html-css-styles {
-  margin: 10%;
+  margin: 0 10%;
   padding: 3rem;
   text-align: center;
   border: solid rgb(221, 219, 219) 1px;
@@ -398,7 +398,7 @@ ul {
 /* Neuroplasticity & Growth Mindset STYLES */
 
 .neuro-styles {
-  margin: 10%;
+  margin: 0 20%;
   padding: 3rem;
   text-align: center;
   border: solid rgb(221, 219, 219) 1px;
@@ -448,8 +448,9 @@ ul {
     border: solid rgb(221, 219, 219) 1px;
     border-radius: 100%;
   }
-  .neuro-h1 {
-    font-size: 2rem;
+  .neuro-h1,
+  .neuro-h2 {
+    font-size: 1.3rem;
   }
   .neuro-p {
     margin: auto;
@@ -599,7 +600,7 @@ STYLES*/
 }
 .te-whare-styles,
 .problem-solving-styles {
-  margin: 10%;
+  margin: 0 20%;
   padding: 3rem;
   text-align: center;
   border: solid rgb(221, 219, 219) 1px;
@@ -611,7 +612,7 @@ STYLES*/
 }
 .te-whare-img-p {
   width: 100%;
-  margin: 3% auto 0 auto;
+  margin: 3% auto 15% auto;
   box-shadow: 10px 10px 5px 0px rgba(56, 55, 55, 0.75);
   border: solid rgb(221, 219, 219) 1px;
   border-radius: 1rem;
@@ -631,7 +632,7 @@ STYLES*/
   }
   .te-whare-img-p {
     width: 30%;
-    margin: 3% auto 0 auto;
+    margin: 7% auto 10% auto;
     box-shadow: 10px 10px 5px 0px rgba(56, 55, 55, 0.75);
     border: solid rgb(221, 219, 219) 1px;
     border-radius: 1rem;
